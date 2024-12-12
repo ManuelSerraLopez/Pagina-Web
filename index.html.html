@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lol.css">
+</head>
+<body>
+        <div class="caja">
+        <h1 class="titulo">Lasaña</h1>
+        <div class="diseño">
+        <label for="Capas">Numero de Capas</label>
+        <input type="number" id="Capas" min="0" required><br>
+        <label for="tiempo">Tiempo en el horno</label>
+        <input type="number" id="tiempo" min="0" required><br>
+        <button onclick="calcularTiempo()" class="boton">Calcular tiempo</button>
+        <div id="resultado"></div>
+        </div>
+        </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
