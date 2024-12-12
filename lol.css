@@ -1,0 +1,33 @@
+.caja{
+    position: center;
+    border-radius: 10px; 
+    background-color: #c23939;
+    padding: 20px;
+    width: 200px;
+    height: 300px;
+    border-color: #b79049;
+    border-style: dotted;
+}
+
+.titulo{
+    font-family: Lato;
+    text-align: center;
+    color: rgb(238, 242, 0);
+}
+
+.diseño{
+    color: white;
+    border-radius: 10px; 
+
+}
+
+.boton {
+    transition-duration: 0.4s;
+    border-radius: 5px; 
+  }
+  
+.boton:hover {
+    background-color: #04AA6D; 
+    color: white;
+    
+  }
