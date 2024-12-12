@@ -1,6 +1,6 @@
 const tiempode_coccion = 40;
 
-function calcularTiempo() { // corregir el nombre de la función
+function calcularTiempo() { 
 
     const capas = parseInt(document.getElementById('Capas').value);
     const tiempodecoccion = parseInt(document.getElementById('tiempo').value);
